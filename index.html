@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wetherapp</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="header">
+
+<div class="search-box">
+<input type="text" placeholder="Enter your location" class="input-box">
+
+<button class="search" id="searchBtn">Search</button>
+</div>
+</div>
+<div class="location-not-found">
+    <h1>Sorry, location is not found</h1>
+    <!-- <img src="c:\Users\HRUTUJA MAHADIK\AppData\Local\Temp\735d5a6f-4132-48bb-869e-e74caa67670f_JavaScript-Projects-main (2).zip.70f\JavaScript-Projects-main\Weather App\assets\mist.png/404png" alt="404 error"> -->
+
+</div>
+<div class="wether-body">
+    <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-1024.png" alt="wetherapp" class="cloude-img">
+    <div class="wether-box">
+    <p class="temperature"></p>
+    <p class="description"></p>
+    </div>
+    <div class="wether-details">
+        <div class="humidity">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.UYkjG6OZPMB37BBQKs8HMgHaF7&pid=Api&P=0&h=180" class="drop-img">
+            <div class="text">
+                <span id="humidity"></span>
+                <p>Humidity</p>
+            </div>
+        </div>
+        <div class="wind">
+            <img src="https://clipart-library.com/images_k/wind-clipart-transparent/wind-clipart-transparent-19.png" class="drop-img">
+            <div class="text">
+                <span id="wind-speed"></span>
+                <p>wind speed</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
